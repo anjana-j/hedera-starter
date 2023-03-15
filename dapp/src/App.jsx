@@ -51,9 +51,9 @@ function App() {
       <Header />
 
       <div id="content">
-        <input class="text-box" type="text" value={value()} /><button class="button-4" type="button" onClick={getMessage}>GetMessge()</button>
+        <input class="text-box" type="text" value={value()} /><button class="button-4" type="button" onClick={getMessage}>GetMessage()</button>
         <br />
-        <input class="text-box" type="text" value={inputValue()} onInput={handleInputChange} /><button class="button-4" type="button" onClick={setMessage}>SetMessge()</button>
+        <input class="text-box" type="text" value={inputValue()} onInput={handleInputChange} /><button class="button-4" type="button" onClick={setMessage}>SetMessage()</button>
         <div>{warningMessage()}</div>
       </div>
     </>  
